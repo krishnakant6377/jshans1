@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Assignment 1</h1>
+    <br>
+    <br>
+    Q.1) You are provided with two numbers A and B. Your task is to add these two numbers.
+    <br>
+    Ans:
+    <br>
+    const AddTwoNumbers = (a,b) => {
+    <br> return a+b;
+    <br> };
+
+    <br> <br>
+    Q.2) You are given two numbers first as "A" and second as "B" and check if both conditions are ( A <10 and A> B )
+        are satisfied or not with the help of operators.
+        <br> Ans:
+        <br> const Is_Valid = (a,b) => {
+        <br> if (a < 10 && a> b){
+            <br> return true;
+            <br> }
+            <br> else {
+            <br> return false;
+            <br> }
+
+            <br> };
+
+
+            <br> <br>
+            Q.3) You are given two numbers "A" and "B". <br>
+            You need to do the following checks: <br>
+
+            (i) if both are divisible by 10 console true. <br>
+            (ii) if both are not divisible by 10 console false. <br>
+            (iii) if one of them only is divisible by 10 console true. <br>
+
+            Use operators to do this. <br>
+            <br>
+            Ans:
+            <br> const Check = (A, B) => { <br>
+
+            if (A % 10 == 0 && B % 10 == 0){ <br>
+            return true; <br>
+            }
+            else if (A % 10 != 0 && B % 10 != 0){ <br>
+            return false; <br>
+            } <br>
+            else { <br>
+            return true; <br>
+            } <br>
+
+            }; <br> <br> <br>
+
+            Q.4) You are provided a four digit number N only. Your task is to print out the first digit of that number.
+            <br>
+
+            Ans : <br>
+            const First_Digit = (n) => { <br>
+
+            return parseInt(n/1000); <br>
+
+            }; <br> <br> <br>
+
+
+
+            Q.5) You are provided a four digit number N only. Your task is to print out the last digit of that number.
+            <br>
+            Ans: <br>
+            const Last_Digit = (n) => { <br>
+
+            return n%10; <br>
+
+            }; <br> <br> <br>
+
+
+            Q.6) You are provided with two numbers A and B where A as divisor and B as dividend.Your task is find the
+            remainder. <br>
+
+            Ans: <br>
+            const Find_the_remainder = (a,b) => { <br>
+
+            return b%a; <br>
+
+            }; <br> <br> <br>
+
+
+
+            Q.7) You are provided with two numbers A and B. Your task is to multiply these two numbers. <br>
+
+            Ans: <br>
+            const Multiply_two_number = (a,b) => { <br>
+
+            return a*b; <br>
+
+            }; <br> <br> <br>
+
+
+            Q.8) Shyam has got his marks in three subjects as A , B , and C (out of 100).Write a program to calculate
+            his total marks and his average. <br>
+            Ans: <br>
+            const Sum = (A, B, C) => { <br>
+
+            return A+B+C; <br>
+
+            }; <br>
+
+            const Average = (A, B, C) => { <br>
+
+            return (A+B+C)/3; <br>
+
+            }; <br> <br> <br>
+</body>
+
+</html>
